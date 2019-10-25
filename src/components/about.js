@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 
 const About = () => (
-    <section>
-        <article>
+    <section className="about-section">
+        <article className="about-article">
             <header>More info about me</header>
             <p>Actual info ksjdflskdjfslkdjfsdlkfj</p>
             <p>here github</p>

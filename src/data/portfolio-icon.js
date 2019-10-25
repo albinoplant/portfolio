@@ -16,9 +16,6 @@ import React from 'react';
           <stop offset="0" stopColor="#000" stopOpacity="1"></stop>
           <stop offset="1" stopColor="#000" stopOpacity="0"></stop>
         </linearGradient>
-        <linearGradient osbPaint="solid">
-          <stop offset="0" stopColor="#cc9601" stopOpacity="1"></stop>
-        </linearGradient>
         <radialGradient
           id="b"
           cx="50"
