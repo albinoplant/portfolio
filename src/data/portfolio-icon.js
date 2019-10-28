@@ -138,7 +138,7 @@ import React from 'react';
         strokeLinejoin="round"
         strokeMiterlimit="4"
       >
-        <rect
+        <rect className='icon-primary'
           width="41.581"
           height="41.313"
           x="29.293"
@@ -168,7 +168,7 @@ import React from 'react';
           paintOrder="markers fill stroke"
           ry="0.104"
         ></rect>
-        <path
+        <path className='icon-primary-dark'
           fill="#c7a302"
           strokeOpacity="0.775"
           strokeWidth="0.401"
@@ -203,7 +203,7 @@ import React from 'react';
           opacity="1"
           paintOrder="markers fill stroke"
         ></circle>
-        <path
+        <path className="icon-m"
           fill="#4b4b4b"
           strokeOpacity="0.775"
           strokeWidth="0.401"

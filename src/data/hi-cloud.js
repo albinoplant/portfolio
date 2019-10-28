@@ -40,7 +40,7 @@ const HiCloud = () => (
       opacity="1"
       paintOrder="markers stroke fill"
     ></path>
-    <text
+    <text className="hi-color"
       x="17.667"
       y="58.31"
       fill="#3f50b5"
@@ -55,7 +55,7 @@ const HiCloud = () => (
       wordSpacing="0"
       xmlSpace="preserve"
     >
-      <tspan
+      <tspan className="hi-color"
         x="17.667"
         y="58.31"
         fill="#3f50b5"
