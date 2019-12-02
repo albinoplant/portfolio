@@ -1,0 +1,69 @@
+$primary: #212121;
+$primary-light: #484848;
+$primary-dark: #000000;
+$background: #f0efef;
+$background-light: #f5f5f5;
+$secondary: #fdd835;
+$secondary-light: #ffff6b;
+$secondary-dark: #c6a700;
+$tertiary: #ff3d00;
+$tertiary-light: #757ce8;
+$tertiary-dark: #002884;
+
+@keyframes waveAnimation {
+    0% {
+      transform: scale(1, 0);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+  @keyframes sectionGoDownAnimation {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  @keyframes delayedPop {
+    0% {
+      opacity: 0;
+      transform: scale(0) rotate(-45deg);
+    }
+    50% {
+      opacity: 0;
+      transform: scale(0) rotate(-45deg);
+    }
+    90% {
+      opacity: 100%;
+      transform: scale(1.2) rotate(20deg);
+    }
+    100% {
+      opacity: 100%;
+      transform: scale(1) rotate(0);
+    }
+  }
+  @keyframes pop {
+    0% {
+      opacity: 0;
+      transform: scale(0) rotate(-45deg);
+    }
+    40% {
+      opacity: 100%;
+      transform: scale(1.2) rotate(20deg);
+    }
+    100% {
+      opacity: 100%;
+      transform: scale(1) rotate(0);
+    }
+  }

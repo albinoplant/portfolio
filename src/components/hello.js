@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import './hello.scss'
 
 import HiCloud from '../data/hi-cloud';
 import Telephone from '../data/telephone-icon';
@@ -23,14 +24,23 @@ const Hello = () => {
 
     const PopupWindowContact = () => {
         
-        return (
-            <aside className='popup-window-contact' >
-                <Blob/>
-                <Telephone/>
-                <Mail/>
-            </aside>
-        );
-        
+        if(isClicked) {
+            return (
+                <aside className='popup-window-contact'>
+                    <div className='popup-container'>
+                        <Blob/>
+                        <div className='popup-content-container'>
+                            <Telephone />
+                            <p>533286123</p>
+                            <Mail />
+                            <p>mateuszmalecki@hotmail.com</p>
+                        </div>
+                    </div>
+                </aside>
+            );
+        } else {
+            return null;
+        } 
     }
 
 

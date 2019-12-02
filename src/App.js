@@ -33,6 +33,7 @@ export default class App extends Component {
       selected.style.marginLeft = '-50%';
     }
 
+
     return (
       <div className="App">
         <div className="top-nav"></div>
