@@ -19,7 +19,8 @@ svg.wave {
     }
   }
  
-  article.hello-section {
+  section.hello-section {
+    article{
     background-color: $secondary-dark;
     color: $primary;
     font-size: 1.5rem;
@@ -30,7 +31,6 @@ svg.wave {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 0.5rem;
 
     @media (min-width: 500px) {
       padding-top: 2rem;
@@ -44,11 +44,12 @@ svg.wave {
         background-color: $secondary;
       }
 
-      div {
+      div.main-container {
         padding: 0 1rem 0 1rem;
         padding-top: 4rem;
       }
     }
+
 
     .blob-wide {
       position: absolute;
@@ -56,12 +57,11 @@ svg.wave {
       margin-right: auto;
       left: 0;
       right: 0;
-      top: 3rem;
       z-index: -2;
       max-width: 1000px;
-      top: -25rem;
+      top: -20rem;
     }
-    div {
+    div.main-container {
       padding-bottom: 3rem;
       svg {
         animation: delayedPop 1.5s;
@@ -114,7 +114,7 @@ svg.wave {
     aside.popup-window-contact {
       position: absolute;
       z-index: 10000;
-      animation: sectionGoDownAnimation 1s ease-in-out;
+      animation: slideDown 1s ease-in-out;
       width: 20rem;
       height: 15rem;
       margin-left: auto;
@@ -128,8 +128,6 @@ svg.wave {
         border-radius: 1rem;  
         height:15rem; 
        .popup-container{ 
-        
-         
          bottom:-5rem;
          p{
            font-weight: 400;
@@ -143,12 +141,12 @@ svg.wave {
         position: relative;
    
         .blob-narrow {
-          height: 15rem;
+          height: 18rem;
           position: absolute;
           margin: auto;
           left: 0;
           right: 0;
-          top: 0;
+          top: 1em;
           bottom: 0;
           z-index: -5;
           path {
@@ -156,14 +154,25 @@ svg.wave {
 
           }
         }
-        .popup-content-container {
+        div.popup-content-container {
+          font-size: small;
           position: absolute;
           margin: auto;
           left: 0;
           right: 0;
-          top:-5em;
+          top:-6.5em;
+          margin: 1rem;
+
+          span{
+            position:relative;
+            top:-1rem;
+          }
           svg{
             height: 3rem;
+            margin-top: 0.5rem;
+            &.github{
+              height:2.7rem;
+            }
             path {
               fill: $primary;
             }
@@ -172,3 +181,4 @@ svg.wave {
       }
     }
   }
+}

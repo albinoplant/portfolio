@@ -1,9 +1,15 @@
 @import '../variables.scss';
 
-article.about-article {
+section.about-section {
     max-width: 50rem;
     margin: auto;
     background-color: $background-light;
+    line-height: 1.7rem;
+    letter-spacing: 0.05rem;
+    font-kerning: none;
+    article.about-article {
+      margin: 2rem;
+    }
     header {
       padding-top: 1rem;
       background-color: $secondary;

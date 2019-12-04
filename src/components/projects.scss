@@ -23,13 +23,10 @@ article.projects-section {
       @media (max-width: 500px) {
         padding-bottom: -2rem;
         height: 5rem;
-
         h1 {
           font-size: 2rem;
         }
       }
-
-      //border-bottom: $secondary-dark 2px solid;
       svg {
         @media (max-width: 500px) {
           & {
@@ -41,6 +38,7 @@ article.projects-section {
         position: absolute;
         left: -3rem;
         top: -3rem;
+        animation: rotation 3s;
         path {
           stroke: $secondary-dark;
         }
