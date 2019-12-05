@@ -4,7 +4,7 @@ import page from '../data/page.gif';
 
 const Process = () => (
     <svg
-    xmlns="http://www.w3.org/2000/svg"
+    xmlns="https://www.w3.org/2000/svg"
     width="150"
     height="150"
     version="1.1"

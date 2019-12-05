@@ -2,7 +2,7 @@ import React from 'react';
 
 const BlobWide = () => (
     <svg className='blob blob-wide'
-    xmlns="http://www.w3.org/2000/svg"
+    xmlns="https://www.w3.org/2000/svg"
     width="1920"
     height="1080"
     version="1.1"

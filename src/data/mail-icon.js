@@ -2,7 +2,7 @@ import React from 'react';
 
    const Mail = () => (
     <svg
-      xmlns="http://www.w3.org/2000/svg"
+      xmlns="https://www.w3.org/2000/svg"
       width="64"
       height="64"
       version="1.1"

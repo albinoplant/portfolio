@@ -3,9 +3,9 @@ import React from 'react';
    const Logo = () => {
      return (
       <svg
-      xmlns="http://www.w3.org/2000/svg"
-      xmlnsOsb="http://www.openswatchbook.org/uri/2009/osb"
-      xmlnsXlink="http://www.w3.org/1999/xlink"
+      xmlns="https://www.w3.org/2000/svg"
+      xmlnsOsb="https://www.openswatchbook.org/uri/2009/osb"
+      xmlnsXlink="https://www.w3.org/1999/xlink"
       width="100"
       height="100"
       version="1.1"

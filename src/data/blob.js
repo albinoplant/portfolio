@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blob = () => (
     <svg className="blob-narrow "
-      xmlns="http://www.w3.org/2000/svg"
+      xmlns="https://www.w3.org/2000/svg"
       version="1.1"
       viewBox="0 0 1500 1500"
     >
