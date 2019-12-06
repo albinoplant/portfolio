@@ -2,64 +2,14 @@ import React from 'react';
 
    const Logo = () => {
      return (
-      <svg
+      <svg id="logo"
       xmlns="https://www.w3.org/2000/svg"
       xmlnsXlink="https://www.w3.org/1999/xlink"
       width="100"
-      height="100"
       version="1.1"
       viewBox="0 0 100 100"
     >
-      <defs>
-        <linearGradient id="a">
-          <stop offset="0" stopColor="#000" stopOpacity="1"></stop>
-          <stop offset="1" stopColor="#000" stopOpacity="0"></stop>
-        </linearGradient>
-        <radialGradient
-          id="b"
-          cx="50"
-          cy="49.26"
-          r="42.937"
-          fx="50"
-          fy="49.26"
-          gradientTransform="matrix(.65299 0 0 .12168 16.753 62.82)"
-          gradientUnits="userSpaceOnUse"
-          xlinkHref="#a"
-        ></radialGradient>
-        <radialGradient
-          id="c"
-          cx="50"
-          cy="49.26"
-          r="42.937"
-          fx="50"
-          fy="49.26"
-          gradientTransform="matrix(.55718 0 0 .12715 21.822 -36.82)"
-          gradientUnits="userSpaceOnUse"
-          xlinkHref="#a"
-        ></radialGradient>
-        <radialGradient
-          id="d"
-          cx="50"
-          cy="49.26"
-          r="42.937"
-          fx="50"
-          fy="49.26"
-          gradientTransform="matrix(.55237 0 0 .12715 20.481 -76.74)"
-          gradientUnits="userSpaceOnUse"
-          xlinkHref="#a"
-        ></radialGradient>
-        <radialGradient
-          id="e"
-          cx="50"
-          cy="49.26"
-          r="42.937"
-          fx="50"
-          fy="49.26"
-          gradientTransform="matrix(.61966 0 0 .13277 -81.858 -36.736)"
-          gradientUnits="userSpaceOnUse"
-          xlinkHref="#a"
-        ></radialGradient>
-      </defs>
+      
       <g
         fillOpacity="1"
         fillRule="evenodd"
@@ -189,19 +139,6 @@ import React from 'react';
         strokeLinejoin="round"
         strokeMiterlimit="4"
       >
-        <circle
-          cx="-41.687"
-          cy="61.582"
-          r="11.422"
-          fill="#fffef7"
-          fillRule="evenodd"
-          strokeDashoffset="0"
-          strokeLinecap="round"
-          strokeOpacity="1"
-          strokeWidth="1.7"
-          opacity="1"
-          paintOrder="markers fill stroke"
-        ></circle>
         <path className="icon-m"
           fill="#4b4b4b"
           strokeOpacity="0.775"

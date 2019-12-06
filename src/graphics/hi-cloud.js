@@ -2,30 +2,14 @@ import React from 'react';
 
 const HiCloud = () => (
   <svg
-    xmlns="https://www.w3.org/2000/svg"
-    width="70"
-    height="70"
-    version="1.1"
-    viewBox="10 10 90 90"
-  >
-  <g fillOpacity="1" stroke="none">
-    <flowRoot
-      fill="#000"
-      fontFamily="sans-serif"
-      fontSize="40"
-      fontStyle="normal"
-      fontWeight="normal"
-      letterSpacing="0"
-      wordSpacing="0"
-      xmlSpace="preserve"
-      style={{ lineHeight: "1.25" }}
-    >
-      <flowRegion>
-        <path d="M157.031 25H917.969V361.719H157.031z"></path>
-      </flowRegion>
-      <flowPara></flowPara>
-    </flowRoot>
-    <path
+  xmlns="https://www.w3.org/2000/svg"
+  width="100"
+  height="100"
+  version="1.1"
+  viewBox="0 0 100 100"
+>
+
+    <path id="cloud-bg"
       fill="#fbfbfe"
       fillRule="evenodd"
       strokeDasharray="none"
@@ -39,42 +23,11 @@ const HiCloud = () => (
       opacity="1"
       paintOrder="markers stroke fill"
     ></path>
-    <text className="hi-color"
-      x="17.667"
-      y="58.31"
-      fill="#3f50b5"
-      strokeOpacity="1"
-      strokeWidth="1.295"
-      style={{ lineHeight: "1.25" }}
-      fontFamily="-apple-system, BlinkMacSystemFont, Roboto, Oxygen,
-      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-      sans-serif"
-      fontSize="51.795"
-      fontStyle="normal"
-      fontWeight="normal"
-      letterSpacing="0"
-      wordSpacing="0"
-      xmlSpace="preserve"
-    >
-      <tspan className="hi-color"
-        x="17.667"
-        y="58.31"
-        fill="#3f50b5"
-        fillOpacity="1"
-        stroke="none"
-        strokeOpacity="1"
-        strokeWidth="1.295"
-        fontFamily="Roboto"
-        fontStretch="normal"
+      <path id="cloud-txt"
+        d="M50.924 58.31h-7.587V42.53H28.542V58.31h-7.587V21.487h7.587v14.922h14.795V21.487h7.587zM64.809 58.31h-7.335V30.946h7.335zm-7.764-34.446q0-1.644 1.087-2.706 1.113-1.062 3.01-1.062 1.871 0 2.984 1.062t1.113 2.706q0 1.67-1.138 2.732-1.113 1.062-2.96 1.062-1.846 0-2.984-1.062-1.112-1.062-1.112-2.732zM78.289 47.005h-6.07l-.86-25.518h7.79zm-3.035 3.996q1.846 0 2.959 1.088 1.138 1.087 1.138 2.782 0 1.669-1.138 2.756-1.113 1.088-2.96 1.088-1.82 0-2.958-1.088-1.113-1.087-1.113-2.756 0-1.67 1.113-2.757 1.138-1.113 2.959-1.113z"
         style={{}}
-        fontStyle="normal"
-        fontVariant="normal"
-        fontWeight="bold"
-      >
-        Hi!
-      </tspan>
-    </text>
-  </g>
+      ></path>
+  
 </svg>
   );
 export default HiCloud;

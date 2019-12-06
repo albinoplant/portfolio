@@ -1,20 +1,33 @@
 @import '../variables.scss';
 
-
+@media (max-width: 500px) {
+  section.hello-section {
+    article{
+      div.main-container{
+        svg{
+          height:4rem;
+        }
+        font-size:1rem;
+      }
+    }
+  }
+}
 svg.wave {
     z-index: -3;
-
     margin-top: -0.5rem;
     position: relative;
+    top:-2rem;
     display: block;
     transform-origin: top;
     animation: waveAnimation 2000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
     path {
       fill: $secondary-dark;
+      }
       @media (max-width: 500px) {
-        & {
+        top:0;
+      path {
           fill: $secondary;
-        }
+          
       }
     }
   }
@@ -45,8 +58,8 @@ svg.wave {
       }
 
       div.main-container {
-        padding: 0 1rem 0 1rem;
-        padding-top: 4rem;
+       
+        padding-top: 0rem;
       }
     }
 
@@ -65,10 +78,10 @@ svg.wave {
       padding-bottom: 3rem;
       svg {
         animation: delayedPop 1.5s linear;
-        path {
-          fill: $secondary-light;
-        }
-        .hi-color {
+       // path#cloud-bg {
+          //fill: $secondary-light;
+       // }
+        path#cloud-txt{
           fill: $secondary-dark;
         }
       }

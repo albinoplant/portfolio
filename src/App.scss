@@ -24,11 +24,20 @@ body {
     position: relative;
     z-index: 10000;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+    @media (max-width: 500px) {
+      height:60px;
+    }
 
     nav {
       display: grid;
       grid-template-columns: 100px 1fr 1fr;
       grid-template-rows: 87px 13px;
+      @media (max-width: 500px) {
+        grid-template-rows: 47px 13px;
+        svg#logo {
+          height:60px;
+        }
+      }
 
       svg {
         rect.icon-primary {
@@ -48,6 +57,10 @@ body {
         text-decoration: none;
 
         button {
+          @media (max-width: 500px) {
+            height:60px;
+          }
+
           height: 100px;
           width: 100%;
           margin-bottom: 15px;
