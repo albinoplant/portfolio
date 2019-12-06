@@ -3,7 +3,7 @@ import React from 'react';
 const HiCloud = () => (
   <svg
     xmlns="https://www.w3.org/2000/svg"
-    xmlnsOsb="https://www.openswatchbook.org/uri/2009/osb"
+    
     width="70"
     height="70"
     version="1.1"

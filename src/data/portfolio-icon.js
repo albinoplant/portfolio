@@ -4,7 +4,6 @@ import React from 'react';
      return (
       <svg
       xmlns="https://www.w3.org/2000/svg"
-      xmlnsOsb="https://www.openswatchbook.org/uri/2009/osb"
       xmlnsXlink="https://www.w3.org/1999/xlink"
       width="100"
       height="100"
