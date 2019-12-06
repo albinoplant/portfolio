@@ -58,11 +58,11 @@ $tertiary-dark: #002884;
       transform: scale(0) rotate(-45deg);
     }
     90% {
-      opacity: 100%;
+      opacity: 1;
       transform: scale(1.2) rotate(20deg);
     }
     100% {
-      opacity: 100%;
+      opacity: 1;
       transform: scale(1) rotate(0);
     }
   }
