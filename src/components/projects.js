@@ -1,6 +1,6 @@
 import React from 'react';
 import './projects.scss';
-import page from '../data/page.gif';
+import page from '../graphics/page.gif';
 
 const Process = () => (
     <svg
