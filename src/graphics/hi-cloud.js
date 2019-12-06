@@ -46,7 +46,9 @@ const HiCloud = () => (
       strokeOpacity="1"
       strokeWidth="1.295"
       style={{ lineHeight: "1.25" }}
-      fontFamily="sans-serif"
+      fontFamily="-apple-system, BlinkMacSystemFont, Roboto, Oxygen,
+      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+      sans-serif"
       fontSize="51.795"
       fontStyle="normal"
       fontWeight="normal"
