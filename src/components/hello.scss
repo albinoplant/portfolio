@@ -64,7 +64,7 @@ svg.wave {
     div.main-container {
       padding-bottom: 3rem;
       svg {
-        animation: delayedPop 1.5s;
+        animation: delayedPop 1.5s linear;
         path {
           fill: $secondary-light;
         }
