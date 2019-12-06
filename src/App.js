@@ -39,9 +39,9 @@ export default class App extends Component {
         <div className="top-nav"></div>
         <header className="header-main">      
           <nav>
-            <Link onClick={handleMainFocus} to="/"><Logo/></Link> 
-            <Link onClick={handleLeftFocus} to="/projects"><button  id="main-button-1"><span>PROJECTS</span></button></Link>
-            <Link onClick={handleRightFocus} to="/about"><button id="main-button-2"><span>ABOUT</span></button></Link>
+            <span onClick={handleMainFocus}><Link to="/"><Logo/></Link></span> 
+            <span onClick={handleLeftFocus}><Link  to="/projects"><button  id="main-button-1"><span>PROJECTS</span></button></Link></span>
+            <span onClick={handleRightFocus}><Link to="/about"><button id="main-button-2"><span>ABOUT</span></button></Link></span>
             <div className="selected">
               <div id="slider"></div>
             </div>
