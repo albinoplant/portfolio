@@ -1,0 +1,34 @@
+[
+    {
+        "link":"https://modest-booth-9a4178.netlify.com/",
+        "title":"Photographers Portfolio",
+        "img":"page.gif",
+        "imgAlt":"Gif showing landing page of my other project",
+        "button":"Live on Netlify",
+        "description":"It's made with GatsbyJS. It started as my own portfolio page but I decided to finish it as this 'photographer's portfolio template'"
+    },
+    {
+        "link":"https://github.com/albinoplant/covalence-task-message-platform",
+        "title":"Message platform",
+        "img":"messages.png",
+        "imgAlt":"Screenshot of the Message platform page",
+        "button":"GitHub",
+        "description":"Front end for larger whole that is yet to come. It's going to be my first Fullstack project."
+    },
+    {
+        "link":"https://github.com/albinoplant/portfolio",
+        "title":"This site",
+        "img":"portfolio.png",
+        "imgAlt":"Image of the site you're on right now.",
+        "button":"GitHub",
+        "description":"Made with CRA."
+    },
+    {
+        "link":"https://github.com/albinoplant/BookApp",
+        "title":"React Native BookApp",
+        "img":"appui.gif",
+        "imgAlt":"Gif showing the UX design",
+        "button":"GitHub",
+        "description":"I want to learn React Native and web APIs so I decided to start building this app. I've designed the UX/UI in Adobe XD. In the meantime I became more aware of what asynchronous JS is, Promisses, async/await etc. So I have to take up where I left off ."
+    }
+]

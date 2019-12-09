@@ -1,6 +1,6 @@
 import React from 'react';
+import ProjectsList from './projects-list';
 import './projects.scss';
-import page from '../graphics/page.gif';
 
 const Process = () => (
     <svg
@@ -26,6 +26,7 @@ const Process = () => (
   </svg>
 );
 
+
 const Projects = () => (
     <section>
         <article  className="projects-section">
@@ -34,21 +35,8 @@ const Projects = () => (
                 <h1> My projects</h1>
             </header>
             <span>--------------------------------------------------------------------------</span>
-            <div className='projects-container'>     
-                <div className='project-container'>
-                    <h2 className="projects-description">Photographers Portfolio made with GatsbyJS</h2>
-                    <a href='https://modest-booth-9a4178.netlify.com/' target="_blank" rel="noopener noreferrer"><img alt="Gif showing landing page of my other project" src={page} /></a>
-                    <br/>
-                    <button><a href='https://modest-booth-9a4178.netlify.com/' target="_blank" rel="noopener noreferrer">Live on Netlify</a></button>
-                    <p>Lorem ipsum lorem ipsum orem ipsum orem ipsum orem ipsum orem ipsum</p>
-                </div>
-                <div className='project-container'>
-                    <h2 className='projects-description'>React Native BookApp</h2>
-                    <a href='https://www.w3schools.com/tags/tag_a.asp'><img alt="Gif showing the UX design"src='https://raw.githubusercontent.com/albinoplant/BookApp/master/toreadme.gif'></img></a>
-                    <br/>
-                    <button><a href='https://www.w3schools.com/tags/tag_a.asp' target="_blank" rel="noopener noreferrer" >Github</a></button>
-                    <p>Lorem ipsum lorem ipsum orem ipsum orem ipsum orem ipsum orem ipsum</p>
-                </div>
+            <div className='projects-container'>
+                <ProjectsList />
             </div>      
         </article>
         <article>

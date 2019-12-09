@@ -45,9 +45,11 @@ article.projects-section {
       }
     }
     div.projects-container {
-      display: flex;
+      display: grid;
       margin: 0 10% 0 10%;
+      grid-template-columns: 1fr 1fr;
       @media (max-width: 500px) {
+        display: flex;
         flex-direction: column;
       }
       div.project-container {
@@ -56,12 +58,19 @@ article.projects-section {
         border-radius: 0.7rem;
         border-top-right-radius: 0;
         border-top-left-radius: 0;
+        p {
+          text-align: justify;
+          line-height: 1.15;
+          font-weight: 300;
+        }
         h2.projects-description {
+          min-height:4.5rem;
           font-weight: 200;
           font-size: 2rem;
         }
         img {
-          max-width: 62%;
+          max-width: 90%;
+          max-height: 20rem;
           height: auto;
           margin: 1rem;
           border-radius: 0.2rem;
