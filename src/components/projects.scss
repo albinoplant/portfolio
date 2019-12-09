@@ -74,13 +74,8 @@ article.projects-section {
           height: auto;
           margin: 1rem;
           border-radius: 0.2rem;
-          opacity: 95%;
-          transition: opacity 0.05s linear;
           @media (max-width: 500px) {
             max-width: 90%;
-          }
-          &:hover {
-            opacity: 100%;
           }
         }
         button {
