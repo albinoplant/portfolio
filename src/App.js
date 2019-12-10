@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Link, Route } from 'react-router-dom';
+import { Link, Route,Switch } from 'react-router-dom';
 import './App.scss';
 import Logo from './graphics/portfolio-icon';
 import About from './components/about';
@@ -48,9 +48,11 @@ export default class App extends Component {
           </nav>
         </header>
         <main>
-          <Route exact path="/" component={Hello} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/about" component={About} />
+          <Switch>
+            <Route exact path="/" component={Hello} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/about" component={About} />
+          </Switch>  
         </main>
       </div>
     );
