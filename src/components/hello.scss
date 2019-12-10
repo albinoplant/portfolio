@@ -40,7 +40,7 @@ svg.wave {
     position: relative;
     z-index: -1;
     width: 100%;
-    height: 30rem;
+    height: 25rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,7 +93,7 @@ svg.wave {
         }
       }
       h4 {
-        font-weight: 300;
+        font-weight: 400;
       }
       p {
         font-size: 1rem;
@@ -105,7 +105,7 @@ svg.wave {
             margin:0.5rem;
             width:6.3rem;
             height:2.25rem;
-            font-size: 0.8rem;
+            font-size: 0.7rem;
             &.download{
               font-weight: 400;
             }
@@ -144,10 +144,21 @@ svg.wave {
       margin-left: auto;
       margin-right: auto;
       left: 0;
-      right: 0;
-      bottom: -20rem;
+      right: -50rem;
+      top: 20rem;
+      @media(max-width:1000px){
+        right:-30rem;
+        top: 30rem;
+      }
+      @media(max-width:700px){
+        right:-10rem;
+        top: 30rem;
+      }
       @media (max-width:500px) {
-        bottom: -15rem;
+        width:100%;
+        padding-top:0;
+        top:20rem;
+        right:0;
         background-color: $secondary;
         border-radius: 1rem;  
         height:15rem; 
@@ -170,7 +181,7 @@ svg.wave {
           margin: auto;
           left: 0;
           right: 0;
-          top: 1em;
+          top: 2rem;
           bottom: 0;
           z-index: -5;
           path {
@@ -184,9 +195,11 @@ svg.wave {
           margin: auto;
           left: 0;
           right: 0;
-          top:-6.5em;
+          top:-5rem;
           margin: 1rem;
-
+          a{
+            color: $primary;
+          }
           span{
             position:relative;
             top:-1rem;

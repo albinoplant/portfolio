@@ -1,5 +1,14 @@
 @import './variables.scss';
 
+@media screen and (min-width: 768px) {
+  a[href*="tel:"] {
+      cursor:default;
+  }
+}
+
+a {
+  text-decoration: none;
+}
 
 body {
   background-color: $background;
@@ -8,7 +17,6 @@ body {
   text-align: center;
   background-color: $background;
   overflow-x: hidden;
-  min-height: 100vh;
 
   .top-nav {
     height: 10px;
@@ -100,15 +108,13 @@ body {
     }
   }
   main {
-    min-height:100vh;
     padding-top: 0;
 
     section {
-      min-height: 99vh;
       position: relative;
       transform-origin: top;
       animation: sectionGoDownAnimation 2000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
-      overflow: hidden;
+
     }
   }
 }

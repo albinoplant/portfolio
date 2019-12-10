@@ -8,7 +8,40 @@ section.about-section {
     letter-spacing: 0.05rem;
     font-kerning: none;
     article.about-article {
-      margin: 2rem;
+      p {
+        margin:0.5rem 0.8rem;
+        text-align: justify;
+      }
+
+      @media (max-width:500px) {
+      margin: 0;
+  
+      }
+      div.popup-content-container{
+        margin-top: 0.5rem;
+        width: 100%;
+        background-color: $secondary;
+        font-size: 1rem;
+        div.row{}
+        
+        a {
+          color: $secondary-dark;
+        }
+        span {
+          position: relative;
+          top:-1.5rem;
+          color: $secondary-dark;
+        }
+        svg{
+          @media (max-width:500px) {
+            width: 2rem;
+          }
+          width:3rem;
+          path{
+            fill: $secondary-dark;
+          }
+        }
+      }
     }
     header {
       padding-top: 1rem;
@@ -18,8 +51,8 @@ section.about-section {
       height: 10rem;
       h1 {
         font-size: 4rem;
-        color: $primary-dark;
-        font-weight: 800;
+        color: $secondary-dark;
+        font-weight: 400;
       }
       @media (max-width: 500px) {
         padding-bottom: -2rem;
