@@ -45,7 +45,7 @@ const Hello = () => {
                     <h1>My name is <span>Mateusz Małecki</span></h1>
                     <p>I am looking for a first job as junior web developer</p>
                     <p>in Szczecin, Poland</p>
-                    <button className='download' ><a style={{textDecoration:'none', }} href={cv} download>Download CV</a></button>
+                    <button className='download' ><a style={{textDecoration:'none', }} href={cv} target='_blank' rel="noopener noreferrer" download>Download CV</a></button>
                     <button onClick={ContactMeClickHandle}  className='contact'>Contact Me</button>
                 </div>
                 <PopupWindowContact />
