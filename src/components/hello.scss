@@ -13,7 +13,7 @@
   }
 }
 svg.wave {
-    z-index: -3;
+    z-index: -1000;
     margin-top: -0.5rem;
     position: relative;
     top:-2rem;
@@ -40,7 +40,6 @@ svg.wave {
     position: relative;
     z-index: -1;
     width: 100%;
-    height: 25rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,7 +58,7 @@ svg.wave {
 
       div.main-container {
        
-        padding-top: 0rem;
+        padding-top: 1rem;
       }
     }
 
@@ -157,7 +156,7 @@ svg.wave {
       @media (max-width:500px) {
         width:100%;
         padding-top:0;
-        top:20rem;
+        top:16rem;
         right:0;
         background-color: $secondary;
         border-radius: 1rem;  

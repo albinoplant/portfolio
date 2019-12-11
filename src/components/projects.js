@@ -34,7 +34,6 @@ const Projects = () => (
                 <Process/>
                 <h1> My projects</h1>
             </header>
-            <span>--------------------------------------------------------------------------</span>
             <div className='projects-container'>
                 <ProjectsList />
             </div>      

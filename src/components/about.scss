@@ -8,17 +8,37 @@ section.about-section {
     letter-spacing: 0.05rem;
     font-kerning: none;
     article.about-article {
-      p {
-        margin:0.5rem 0.8rem;
-        text-align: justify;
-      }
-
+      div.container{
+        display: flex;
+        img{
+          width:50%;
+          height:50%;
+          margin: 2rem 1rem 2rem 0;
+          box-shadow: 0 4px 8px rgba(0,0,0,0.05), 0 8px 20px rgba(0,0,0,0.05);
+        }
+        p {
+          width:50%;
+          padding:1rem;
+         text-align: justify;
+        }
+        @media (max-width:500px) {
+          display:block;
+          img {
+            width:80%;
+            height:80%;
+          }
+          p{
+            width: auto;
+          }
+        }
+      } 
       @media (max-width:500px) {
       margin: 0;
   
       }
       div.popup-content-container{
         margin-top: 0.5rem;
+        border-radius: 1rem;
         width: 100%;
         background-color: $secondary;
         font-size: 1rem;
