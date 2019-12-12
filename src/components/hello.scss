@@ -119,13 +119,12 @@ svg.wave {
         border-radius: 2rem;
         border: solid 2px white;
         &.download {
-          &:hover a {
+          color: $primary-dark;
+          &:hover  {
             color: $secondary-dark;
           }
           background-color: white;
-          a {
-            color: $primary-dark;
-          }
+
         }
         &.contact:hover {
           border-color: $secondary-dark;

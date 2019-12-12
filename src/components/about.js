@@ -15,7 +15,7 @@ const About = () => (
             <div className="container">
                 <p>Hello! My name is Mateusz Małecki. I study Information Technology at The West Pomeranian University
                     of Technology in Szczecin. From the moment I started learning web technologies, I'm getting more and more curious.
-                    I care about the visual design of the project as much as a solid and planned programming but as I progress the love for clever code writing grows. 
+                    I care about the visual design of the project as much as a solid and planned programming but as I progress the love for smart code writing grows. 
                 </p>
                 <img alt="Portrait of me" src={portrait}></img>
             </div>
