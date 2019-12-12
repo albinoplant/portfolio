@@ -7,7 +7,7 @@ const Project = ({link,title,imgAlt,img,button,description}) => {
                     <a href={link} target="_blank" rel="noopener noreferrer"><img alt={imgAlt} src={require(`../graphics/${img}`)} /></a>
                     <br/>
                     <p>{description}</p>
-                    <button><a href={link} target="_blank" rel="noopener noreferrer">{button}</a></button>
+                    <a class="button-link" href={link} target="_blank" rel="noopener noreferrer"><button>{button}</button></a>
                 </div>
     );
 }
