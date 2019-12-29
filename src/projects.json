@@ -8,10 +8,18 @@
         "description":"It's made with GatsbyJS. It started as my own portfolio page but I decided to finish it as this 'photographer's portfolio template'"
     },
     {
+        "link":"https://determined-jones-6df474.netlify.com",
+        "title":"Book Search",
+        "img":"Book_Search.png",
+        "imgAlt":"Screenshot of the Book Search page",
+        "button":"Live on Netlify",
+        "description":"Made with CRA & react-bootstrap. I created this project to get comfortable with Fetch API"
+    },
+    {
         "link":"https://github.com/albinoplant/covalence-task-message-platform",
         "title":"Message platform",
         "img":"messages.png",
-        "imgAlt":"Screenshot of the Message platform page",
+        "imgAlt":"Screenshot of the Message platforget comfortable wm page",
         "button":"GitHub",
         "description":"Front end for larger whole that is yet to come. It's going to be my first Fullstack project."
     },
