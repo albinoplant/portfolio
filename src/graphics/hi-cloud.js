@@ -1,7 +1,7 @@
 import React from 'react';
 
 const HiCloud = () => (
-  <svg
+  <svg id="hicloud"
   xmlns="https://www.w3.org/2000/svg"
   width="100"
   height="100"
