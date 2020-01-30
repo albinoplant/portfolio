@@ -40,7 +40,7 @@ article.projects-section {
       position: absolute;
       left: 2rem;
       top: -3rem;
-      animation: rotation 3s;
+      animation: rotation 3s 800ms;
       path {
         stroke: $secondary-dark;
       }
@@ -71,10 +71,7 @@ article.projects-section {
         font-size: 2rem;
       }
       img {
-        max-width: 90%;
-        max-height: 20rem;
-        height: auto;
-        margin: 1rem;
+        width:100%;
         border-radius: 0.2rem;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05), 0 8px 20px rgba(0, 0, 0, 0.05);
         @media (max-width: 500px) {
