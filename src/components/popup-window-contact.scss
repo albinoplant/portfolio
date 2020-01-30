@@ -1,0 +1,86 @@
+@import '../variables.scss';
+
+
+aside.popup-window-contact {
+    position: absolute;
+    z-index: 10000;
+    width: 20rem;
+    height: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: -50rem;
+    top: 22rem;
+    transform-origin: 70% 70%;
+    @media(max-width:1000px){
+      right:-30rem;
+      top: 30rem;
+    }
+    @media(max-width:700px){
+      right:-10rem;
+      top: 30rem;
+    }
+    @media (max-width:500px) {
+      width:100%;
+      padding-top:0;
+      top:16rem;
+      right:0;
+      background-color: $secondary;
+      border-radius: 1rem;  
+      height:15rem; 
+      z-index: -1009;
+     .popup-container{ 
+       bottom:-5rem;
+       p{
+         font-weight: 400;
+       }
+       .blob-narrow{
+        display: none;
+      }               
+    }
+  }
+    .popup-container {
+      position: relative;
+ 
+      .blob-narrow {
+        height: 18rem;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 2rem;
+        bottom: 0;
+        z-index: -5;
+        path {
+          fill: $secondary;
+
+        }
+      }
+      div.popup-content-container {
+        font-size: small;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top:-5rem;
+        margin: 1rem;
+        a{
+          color: $primary;
+        }
+        span{
+          position:relative;
+          top:-1rem;
+        }
+        svg{
+          height: 3rem;
+          margin-top: 0.5rem;
+          &.github{
+            height:2.7rem;
+          }
+          path {
+            fill: $primary;
+          }
+        }
+      }
+    }
+  }

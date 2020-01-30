@@ -11,7 +11,8 @@ export default class App extends Component {
 
 
   render() {
-      
+    
+    //Makes the slider go under logo 
     const handleLeftFocus = (e) => {
       e.preventDefault();
       const selected = document.getElementById('slider');      
@@ -19,6 +20,7 @@ export default class App extends Component {
       //selected.style.height = '100%';
     }
   
+    //slider goes 
     const handleRightFocus = (e) => {
       e.preventDefault();
       const selected = document.getElementById('slider');
