@@ -20,7 +20,7 @@ const PopupWindowContact = ({isClicked}) => {
     return (
         show && (     
             <aside className='popup-window-contact'
-                style={{ animation: `${isClicked ? "popIn" : "popOut" } 0.4s`}}
+                style={{ animation: `${isClicked ? "popIn" : "popOut" } 1s`}}
                 onAnimationEnd={onAnimationEnd}    
             >
                 <div className='popup-container'>

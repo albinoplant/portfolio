@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './hello.scss'
 
 import HiCloud from '../graphics/hi-cloud';
-import cv from '../graphics/cv_eng.pdf';
+import cv from '../graphics/Mateusz_Małecki.pdf';
 import BlobWide from '../graphics/blob-wide';
 import BottomBorder from '../graphics/bottom-border';
 import PopupWindowContact from './PopupWindowContact';
