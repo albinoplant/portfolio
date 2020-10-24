@@ -24,7 +24,7 @@ const Hello = () => {
                 <div className='main-container'>
                     <HiCloud/>
                     <h1>My name is <span>Mateusz Małecki</span></h1>
-                    <p>I am looking for a first job as junior web developer</p>
+                    <p>I am looking for a job as junior web developer</p>
                     <p>in Szczecin, Poland</p>
                     <a href={cv} target='_blank' rel="noopener noreferrer" download><button className="download" >Download CV</button></a>
                     <button onClick={ContactMeClickHandle}  className='contact'>Contact Me</button>
